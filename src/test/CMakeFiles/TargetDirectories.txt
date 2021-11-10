@@ -1,0 +1,7 @@
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/edit_cache.dir
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/lookup_accession_numbers.dir
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/dump_table.dir
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/estimate_capacity.dir
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/classify.dir
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/rebuild_cache.dir
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/build_db.dir

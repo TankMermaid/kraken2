@@ -1,3 +1,7 @@
+cmake_minimum_required(VERSION 3.15.1)
+
+project(kraken2_customized)
+
 add_executable(build_db
         build_db.cc
         mmap_file.cc

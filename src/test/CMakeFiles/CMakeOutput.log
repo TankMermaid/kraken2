@@ -1,0 +1,477 @@
+The system is: Linux - 5.4.0-81-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-cc 
+Build flags: -march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-c++ 
+Build flags: -fvisibility-inlines-hidden;-std=c++17;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/3.16.3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/make cmTC_8b75b/fast && /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/make -f CMakeFiles/cmTC_8b75b.dir/build.make CMakeFiles/cmTC_8b75b.dir/build
+make[1]: Entering directory '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b75b.dir/testCCompiler.c.o
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include    -o CMakeFiles/cmTC_8b75b.dir/testCCompiler.c.o   -c /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8b75b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b75b.dir/link.txt --verbose=1
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -Wl,-rpath-link,/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib  CMakeFiles/cmTC_8b75b.dir/testCCompiler.c.o  -o cmTC_8b75b 
+make[1]: Leaving directory '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/make cmTC_c619e/fast && /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/make -f CMakeFiles/cmTC_c619e.dir/build.make CMakeFiles/cmTC_c619e.dir/build
+make[1]: Entering directory '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include    -v -o CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Reading specs from /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/specs
+COLLECT_GCC=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-cc
+Target: x86_64-conda-linux-gnu
+Configured with: /home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built --with-sysroot=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.24.0.133_b0863d8_dirty' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpfr=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpc=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-isl=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --enable-default-pie
+Thread model: posix
+gcc version 7.5.0 (crosstool-NG 1.24.0.133_b0863d8_dirty) 
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-v' '-o' 'CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o' '-c'
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/cc1 -quiet -v -iprefix /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/ -isysroot /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o
+GNU assembler version 2.35.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.35.1
+GNU C11 (crosstool-NG 1.24.0.133_b0863d8_dirty) version 7.5.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-23), GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include"
+ignoring nonexistent directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"
+ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed"
+ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C11 (crosstool-NG 1.24.0.133_b0863d8_dirty) version 7.5.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-23), GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: a8ffe9e89e1c629876e2526ed88ebc9b
+COMPILER_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-v' '-o' 'CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o' '-c'
+Linking C executable cmTC_c619e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c619e.dir/link.txt --verbose=1
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -Wl,-rpath-link,/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -v CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o  -o cmTC_c619e 
+Reading specs from /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/specs
+COLLECT_GCC=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-cc
+COLLECT_LTO_WRAPPER=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/lto-wrapper
+Target: x86_64-conda-linux-gnu
+Configured with: /home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built --with-sysroot=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.24.0.133_b0863d8_dirty' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpfr=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpc=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-isl=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --enable-default-pie
+Thread model: posix
+gcc version 7.5.0 (crosstool-NG 1.24.0.133_b0863d8_dirty) 
+COMPILER_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib' '-v' '-o' 'cmTC_c619e'
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/collect2 -plugin /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/liblto_plugin.so -plugin-opt=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEy6QHA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c619e /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/crtbeginS.o -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0 -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -rpath-link /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/crtendS.o /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib' '-v' '-o' 'cmTC_c619e'
+make[1]: Leaving directory '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include]
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include]
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed]
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include]
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include]
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc/x86_64-conda-linux-gnu/7.5.0/include]
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed]
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/include]
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc/x86_64-conda-linux-gnu/7.5.0/include;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/include;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/make cmTC_c619e/fast && /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/make -f CMakeFiles/cmTC_c619e.dir/build.make CMakeFiles/cmTC_c619e.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include    -v -o CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Reading specs from /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/specs]
+  ignore line: [COLLECT_GCC=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-cc]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: /home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built --with-sysroot=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-languages=c c++ fortran objc obj-c++ --with-pkgversion='crosstool-NG 1.24.0.133_b0863d8_dirty' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpfr=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpc=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-isl=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --enable-default-pie]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (crosstool-NG 1.24.0.133_b0863d8_dirty) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-v' '-o' 'CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o' '-c']
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/cc1 -quiet -v -iprefix /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/ -isysroot /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU assembler version 2.35.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.35.1]
+  ignore line: [GNU C11 (crosstool-NG 1.24.0.133_b0863d8_dirty) version 7.5.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-23)  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include"]
+  ignore line: [ignoring nonexistent directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (crosstool-NG 1.24.0.133_b0863d8_dirty) version 7.5.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-23)  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: a8ffe9e89e1c629876e2526ed88ebc9b]
+  ignore line: [COMPILER_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-v' '-o' 'CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o' '-c']
+  ignore line: [Linking C executable cmTC_c619e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c619e.dir/link.txt --verbose=1]
+  ignore line: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include   -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl -rpath /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -Wl -rpath-link /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -v CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o  -o cmTC_c619e ]
+  ignore line: [Reading specs from /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/specs]
+  ignore line: [COLLECT_GCC=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: /home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built --with-sysroot=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-languages=c c++ fortran objc obj-c++ --with-pkgversion='crosstool-NG 1.24.0.133_b0863d8_dirty' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpfr=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpc=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-isl=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --enable-default-pie]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (crosstool-NG 1.24.0.133_b0863d8_dirty) ]
+  ignore line: [COMPILER_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib' '-v' '-o' 'cmTC_c619e']
+  link line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/collect2 -plugin /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/liblto_plugin.so -plugin-opt=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEy6QHA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c619e /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/crtbeginS.o -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0 -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -rpath-link /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/crtendS.o /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccEy6QHA.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c619e] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/crtbeginS.o] ==> ignore
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [-rpath] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib] ==> ignore
+    arg [-O2] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--disable-new-dtags] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib] ==> ignore
+    arg [CMakeFiles/cmTC_c619e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/crtendS.o] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> ignore
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc/x86_64-conda-linux-gnu/7.5.0]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc/x86_64-conda-linux-gnu/7.5.0;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/lib;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/lib;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/make cmTC_01f43/fast && /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/make -f CMakeFiles/cmTC_01f43.dir/build.make CMakeFiles/cmTC_01f43.dir/build
+make[1]: Entering directory '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_01f43.dir/testCXXCompiler.cxx.o
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-c++    -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include    -o CMakeFiles/cmTC_01f43.dir/testCXXCompiler.cxx.o -c /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_01f43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01f43.dir/link.txt --verbose=1
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-c++  -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -Wl,-rpath-link,/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib  CMakeFiles/cmTC_01f43.dir/testCXXCompiler.cxx.o  -o cmTC_01f43 
+make[1]: Leaving directory '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/make cmTC_71c4e/fast && /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/make -f CMakeFiles/cmTC_71c4e.dir/build.make CMakeFiles/cmTC_71c4e.dir/build
+make[1]: Entering directory '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-c++    -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include    -v -o CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Reading specs from /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/specs
+COLLECT_GCC=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-c++
+Target: x86_64-conda-linux-gnu
+Configured with: /home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built --with-sysroot=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.24.0.133_b0863d8_dirty' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpfr=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpc=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-isl=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --enable-default-pie
+Thread model: posix
+gcc version 7.5.0 (crosstool-NG 1.24.0.133_b0863d8_dirty) 
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-v' '-o' 'CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/cc1plus -quiet -v -iprefix /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/ -isysroot /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++1z -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o
+GNU assembler version 2.35.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.35.1
+GNU C++14 (crosstool-NG 1.24.0.133_b0863d8_dirty) version 7.5.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-23), GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0"
+ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0/x86_64-conda-linux-gnu"
+ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0/backward"
+ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include"
+ignoring nonexistent directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"
+ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed"
+ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0/x86_64-conda-linux-gnu
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0/backward
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++14 (crosstool-NG 1.24.0.133_b0863d8_dirty) version 7.5.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-23), GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 2ced2db76562c55f3e548f9009e4c463
+COMPILER_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-v' '-o' 'CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc'
+Linking CXX executable cmTC_71c4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71c4e.dir/link.txt --verbose=1
+/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-c++  -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include   -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -Wl,-rpath-link,/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -v CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_71c4e 
+Reading specs from /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/specs
+COLLECT_GCC=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-c++
+COLLECT_LTO_WRAPPER=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/lto-wrapper
+Target: x86_64-conda-linux-gnu
+Configured with: /home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built --with-sysroot=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-languages=c,c++,fortran,objc,obj-c++ --with-pkgversion='crosstool-NG 1.24.0.133_b0863d8_dirty' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpfr=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpc=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-isl=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --enable-default-pie
+Thread model: posix
+gcc version 7.5.0 (crosstool-NG 1.24.0.133_b0863d8_dirty) 
+COMPILER_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib' '-v' '-o' 'cmTC_71c4e' '-shared-libgcc'
+ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/collect2 -plugin /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/liblto_plugin.so -plugin-opt=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdqwX6Y.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_71c4e /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/crtbeginS.o -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0 -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -rpath-link /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/crtendS.o /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o
+COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib' '-v' '-o' 'cmTC_71c4e' '-shared-libgcc'
+make[1]: Leaving directory '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include]
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0]
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0/x86_64-conda-linux-gnu]
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0/backward]
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include]
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed]
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include]
+    add: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include]
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/include/c++/7.5.0]
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0/x86_64-conda-linux-gnu] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/include/c++/7.5.0/x86_64-conda-linux-gnu]
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0/backward] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/include/c++/7.5.0/backward]
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc/x86_64-conda-linux-gnu/7.5.0/include]
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed]
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/include]
+  collapse include dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/include/c++/7.5.0;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/include/c++/7.5.0/x86_64-conda-linux-gnu;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/include/c++/7.5.0/backward;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc/x86_64-conda-linux-gnu/7.5.0/include;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/include;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/make cmTC_71c4e/fast && /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/make -f CMakeFiles/cmTC_71c4e.dir/build.make CMakeFiles/cmTC_71c4e.dir/build]
+  ignore line: [make[1]: Entering directory '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/libexec/kraken2_custom/src/test/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-c++    -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include    -v -o CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Reading specs from /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/specs]
+  ignore line: [COLLECT_GCC=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-c++]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: /home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built --with-sysroot=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-languages=c c++ fortran objc obj-c++ --with-pkgversion='crosstool-NG 1.24.0.133_b0863d8_dirty' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpfr=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpc=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-isl=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --enable-default-pie]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (crosstool-NG 1.24.0.133_b0863d8_dirty) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-v' '-o' 'CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/cc1plus -quiet -v -iprefix /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/ -isysroot /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o -O2 -std=c++1z -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU assembler version 2.35.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.35.1]
+  ignore line: [GNU C++14 (crosstool-NG 1.24.0.133_b0863d8_dirty) version 7.5.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-23)  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0"]
+  ignore line: [ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0/x86_64-conda-linux-gnu"]
+  ignore line: [ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0/backward"]
+  ignore line: [ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include"]
+  ignore line: [ignoring nonexistent directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot/include"]
+  ignore line: [ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0/x86_64-conda-linux-gnu]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include/c++/7.5.0/backward]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/include-fixed]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/include]
+  ignore line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (crosstool-NG 1.24.0.133_b0863d8_dirty) version 7.5.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.4.7 20120313 (Red Hat 4.4.7-23)  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 2ced2db76562c55f3e548f9009e4c463]
+  ignore line: [COMPILER_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-v' '-o' 'CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc']
+  ignore line: [Linking CXX executable cmTC_71c4e]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71c4e.dir/link.txt --verbose=1]
+  ignore line: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-c++  -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include   -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl -rpath /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -Wl -rpath-link /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -v CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_71c4e ]
+  ignore line: [Reading specs from /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/specs]
+  ignore line: [COLLECT_GCC=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/x86_64-conda-linux-gnu-c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: /home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/src/gcc/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=x86_64-conda-linux-gnu --prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built --with-sysroot=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-languages=c c++ fortran objc obj-c++ --with-pkgversion='crosstool-NG 1.24.0.133_b0863d8_dirty' --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-libmpx --with-gmp=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpfr=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-mpc=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --with-isl=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/.build/x86_64-conda-linux-gnu/buildtools --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-multilib --with-local-prefix=/home/conda/feedstock_root/build_artifacts/ctng-compilers_1610729760264/work/gcc_built/x86_64-conda-linux-gnu/sysroot --enable-long-long --enable-default-pie]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (crosstool-NG 1.24.0.133_b0863d8_dirty) ]
+  ignore line: [COMPILER_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-std=c++1z' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/include' '-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib' '-v' '-o' 'cmTC_71c4e' '-shared-libgcc']
+  link line: [ /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/collect2 -plugin /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/liblto_plugin.so -plugin-opt=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdqwX6Y.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_71c4e /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/crtbeginS.o -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0 -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -rpath /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib -rpath-link /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/crtendS.o /mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../libexec/gcc/x86_64-conda-linux-gnu/7.5.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdqwX6Y.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_71c4e] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/crtbeginS.o] ==> ignore
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+    arg [-L/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [-rpath] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib] ==> ignore
+    arg [-O2] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--disable-new-dtags] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib] ==> ignore
+    arg [CMakeFiles/cmTC_71c4e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/crtendS.o] ==> ignore
+    arg [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> ignore
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc/x86_64-conda-linux-gnu/7.5.0]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../lib/gcc/x86_64-conda-linux-gnu/7.5.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc/x86_64-conda-linux-gnu/7.5.0;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/lib/gcc;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/lib;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/lib;/mnt/m1/xiaoning/software/anaconda3/envs/snakemake/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+

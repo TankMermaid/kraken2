@@ -83,6 +83,30 @@ struct OutputData {
   string unclassified_out2_str;
 };
 
+
+enum rank_code {
+    r_kindom,
+    r_phylum,
+    r_class,
+    r_order,
+    r_family,
+    r_genus,
+    r_species,
+    r_sspecies,
+};
+
+rank_code hashit (std::string const& inString) {
+    if (inString == "superkingdom") return r_kindom;
+    if (inString == "phylum") return r_phylum;
+    if (inString == "class") return r_class;
+    if (inString == "order") return r_order;
+    if (inString == "family") return r_family;
+    if (inString == "genus") return r_genus;
+    if (inString == "species") return r_species;
+    if (inString == "subspecies") return r_sspecies;
+    
+};
+
 void ParseCommandLine(int argc, char **argv, Options &opts);
 void usage(int exit_code=EX_USAGE);
 void ProcessFiles(const char *filename1, const char *filename2,
@@ -102,6 +126,10 @@ void ReportStats(struct timeval time1, struct timeval time2,
     ClassificationStats &stats);
 void InitializeOutputs(Options &opts, OutputStreamData &outputs, SequenceFormat format);
 void MaskLowQualityBases(Sequence &dna, int minimum_quality_score);
+
+                                                                               
+
+
 
 int main(int argc, char **argv) {
   Options opts;
@@ -599,10 +627,63 @@ taxid_t ClassifySequence(Sequence &dna, Sequence &dna2, ostringstream &koss,
   auto ext_call = taxonomy.nodes()[call].external_id;
   if (opts.print_scientific_name) {
     const char *name = nullptr;
+    const char *name_p = nullptr;
+    const char *rank_app = nullptr;
     if (call) {
-      name = taxonomy.name_data() + taxonomy.nodes()[call].name_offset;
+      // name = taxonomy.name_data() + taxonomy.nodes()[call].name_offset ;
+      taxid_t p_call = call;
+      bool flag_rank = true;
+      auto p_ext_call = ext_call;
+      while(p_call){
+        cout << p_call <<endl;
+        // execute at least once
+        if(flag_rank){
+          rank_app =  taxonomy.rank_data() + taxonomy.nodes()[p_call].rank_offset;
+          cout<<"hello\n";
+          cout << rank_app;
+          cout<< "test\n";
+          switch (hashit(rank_app))
+          {
+          case rank_code::r_kindom:
+            koss << "ss_unassigned\ts__unassigned\tg__unassigned\tf__unassigned\to__unassigned\tc__unassigned\tp__unassigned" <<"\t";
+            break;
+          case  rank_code::r_phylum:
+            koss << "ss_unassigned\ts__unassigned\tg__unassigned\tf__unassigned\to__unassigned\tc__unassigned" <<"\t";
+            break;
+          case rank_code::r_class:
+            koss << "ss_unassigned\ts__unassigned\tg__unassigned\tf__unassigned\to__unassigned" <<"\t";
+            break;
+          case rank_code::r_order:
+            koss << "ss_unassigned\ts__unassigned\tg__unassigned\tf__unassigned" <<"\t";
+            break;
+          case rank_code::r_family:
+            koss << "ss_unassigned\ts__unassigned\tg__unassigned" <<"\t";
+          case rank_code::r_genus:
+            koss << "ss_unassigned\ts__unassigned" <<"\t";
+            break;
+          case rank_code::r_species:
+            koss << "ss_unassigned" <<"\t";
+          default:
+            break;
+          }
+          
+          flag_rank = false;
+        }
+        name = taxonomy.name_data() + taxonomy.nodes()[p_call].name_offset;
+        if (strcmp(name, "root") != 0){
+          koss << (name ? name : "unclassified") <<"\t"; 
+          p_call =  taxonomy.nodes()[p_call].parent_id;
+        }
+        else
+        {
+          p_call =  taxonomy.nodes()[p_call].parent_id;
+          }
+        // p_ext_call = taxonomy.nodes()[p_call].external_id;
+
+      }
+      
     }
-    koss << (name ? name : "unclassified") << " (taxid " << ext_call << ")";
+    // koss << (name ? name : "unclassified") << " (taxid " << ext_call << ")";
   }
   else {
     koss << ext_call;
