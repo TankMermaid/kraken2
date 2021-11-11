@@ -644,25 +644,30 @@ taxid_t ClassifySequence(Sequence &dna, Sequence &dna2, ostringstream &koss,
           cout<< "test\n";
           switch (hashit(rank_app))
           {
-          case rank_code::r_kindom:
-            koss << "ss_unassigned\ts__unassigned\tg__unassigned\tf__unassigned\to__unassigned\tc__unassigned\tp__unassigned" <<"\t";
+          case r_kindom:
+            koss << "ss_unassigned;;s__unassigned;;g__unassigned;;f__unassigned;;o__unassigned;;c__unassigned;;p__unassigned" <<";;";
             break;
-          case  rank_code::r_phylum:
-            koss << "ss_unassigned\ts__unassigned\tg__unassigned\tf__unassigned\to__unassigned\tc__unassigned" <<"\t";
+          case  r_phylum:
+            koss << "ss_unassigned;;s__unassigned;;g__unassigned;;f__unassigned;;o__unassigned;;c__unassigned" <<";;";
             break;
-          case rank_code::r_class:
-            koss << "ss_unassigned\ts__unassigned\tg__unassigned\tf__unassigned\to__unassigned" <<"\t";
+          case r_class:
+            koss << "ss_unassigned;;s__unassigned;;g__unassigned;;f__unassigned;;o__unassigned" <<";;";
             break;
-          case rank_code::r_order:
-            koss << "ss_unassigned\ts__unassigned\tg__unassigned\tf__unassigned" <<"\t";
+          case r_order:
+            koss << "ss_unassigned;;s__unassigned;;g__unassigned;;f__unassigned" <<";;";
             break;
-          case rank_code::r_family:
-            koss << "ss_unassigned\ts__unassigned\tg__unassigned" <<"\t";
-          case rank_code::r_genus:
-            koss << "ss_unassigned\ts__unassigned" <<"\t";
+          case r_family:
+            koss << "ss_unassigned;;s__unassigned;;g__unassigned" <<";;";
             break;
-          case rank_code::r_species:
-            koss << "ss_unassigned" <<"\t";
+          case r_genus:
+            koss << "ss_unassigned;;s__unassigned" <<";;";
+            break;
+          case r_species:
+            koss << "ss_unassigned" <<";;";
+            break;
+          case r_sspecies:
+            koss << "sub_";
+            break;
           default:
             break;
           }
@@ -671,7 +676,7 @@ taxid_t ClassifySequence(Sequence &dna, Sequence &dna2, ostringstream &koss,
         }
         name = taxonomy.name_data() + taxonomy.nodes()[p_call].name_offset;
         if (strcmp(name, "root") != 0){
-          koss << (name ? name : "unclassified") <<"\t"; 
+          koss << (name ? name : "unclassified") <<";;"; 
           p_call =  taxonomy.nodes()[p_call].parent_id;
         }
         else
