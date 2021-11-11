@@ -666,7 +666,7 @@ taxid_t ClassifySequence(Sequence &dna, Sequence &dna2, ostringstream &koss,
             koss << "ss_unassigned" <<";;";
             break;
           case r_sspecies:
-            koss << "sub_";
+            koss << "ss_";
             break;
           default:
             break;
